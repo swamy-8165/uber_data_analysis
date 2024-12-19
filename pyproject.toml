@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "big-data-project"
+version = "0.1.0"
+description = ""
+authors = ["swamy-8165 <swamyceasefire8165@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+kaggle = "^1.6.17"
+python-dotenv = "^1.0.1"
+numpy = "^2.2.0"
+cassandra-driver = "^3.29.2"
+uuid = "^1.30"
+colorama = "^0.4.6"
+flask = "^3.1.0"
+plotly = "^5.24.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
